@@ -1,3 +1,7 @@
 @import './reset.scss';
-@import './assets/variables/fonts.scss';
+@import './assets/variables/fonts.scss', './assets/variables/colors.scss';
 @import './pages/home.scss';
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
